@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.745);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.filed {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.sep {
+  color: white;
+  font-size: 2em;
+}
