@@ -1,25 +1,32 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 body {
-  background-color: rgba(0, 0, 0, 0.745);
+  background-color: beige;
 }
-main {
+
+.horloge {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.filed {
-  width: 50px;
-  height: 50px;
-  background-color: black;
-  color: white;
-  padding: 20px;
-}
+
 .sep {
-  color: white;
-  font-size: 2em;
+  margin: 0 1rem;
+  font-size: 4rem;
+  color: #000;
 }
+
+.filed {
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
